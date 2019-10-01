@@ -29,6 +29,7 @@ public class HibernateMain {
 		
 		
 		s.save(p);
+		System.out.println("Product is saved!!!!!!yipee");
 		t.commit();
 		s.close();
 
